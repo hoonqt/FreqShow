@@ -76,7 +76,7 @@ if __name__ == '__main__':
 	os.putenv('SDL_MOUSEDEV'   , '/dev/input/touchscreen')
 	pygame.display.init()
 	pygame.font.init()
-	pygame.mouse.set_visible(False)
+	pygame.mouse.set_visible(True)
 	# Get size of screen and create main rendering surface.
 	size = (pygame.display.Info().current_w, pygame.display.Info().current_h)
 	screen = pygame.display.set_mode(size, pygame.FULLSCREEN)
