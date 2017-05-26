@@ -73,7 +73,7 @@ if __name__ == '__main__':
 	os.putenv('SDL_VIDEODRIVER', 'fbcon')
 	os.putenv('SDL_FBDEV'      , '/dev/fb1')
 	os.putenv('SDL_MOUSEDRV'   , 'TSLIB')
-	os.putenv('SDL_MOUSEDEV'   , '/dev/input/touchscreen')
+	os.putenv('SDL_MOUSEDEV'   , '/dev/input')
 	pygame.display.init()
 	pygame.font.init()
 	pygame.mouse.set_visible(True)
